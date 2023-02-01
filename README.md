@@ -8,8 +8,8 @@ Install the followings in this order. (NB. If already installed then update it t
 1. Github
 2. VS-Code
 3. Python3
-4. Flask
-5. pip
+4. pip
+5. Flask
 #### Starter -
 > Assuming you already clone the project. 
 > Run the project by these command
