@@ -22,22 +22,18 @@ source .venv/bin/activate
 python3 app.py
 ```
 <H1>Devolopers</h1>
-<ul style="list-style-type:disc;">
-  
-  <li><h3>Kaifa Tabassum</h3></li>
-  <p>Undergrad at SUST CSE</p>
-  <p>Data preparation</p>
-  <li><h3>Ananna Datta Dristy</h3></li>
-  <p>Undergrad at SUST CSE</p>
-  <p>Training Model</p>
-  <li><h3>Debapriya Dhar</h3></li>
-  <p>Undergrad at SUST CSE</p>
-  <p>Software developing</p>
-  <li><h3>Omar Ali Sultan</h3></li>
-  <p>Undergrad at SUST CSE</p>
-  <p>Software developing</p>
-  <li><h3>Kawchar Husain</h3></li>
-  <p>Undergrad at SUST CSE</p>
-  <p> Model preprocessing </p>
-
-</ul>
+###### **Ananna Dristy**
+       Email - anannadristy03@gmail.com
+       Github Profile - Dristy03
+###### **Kawchar Husain**
+       Email - kawsarhn1@gmail.com
+       Github - kawchar85
+###### **Kaifa Tabassum*
+       Email - tabassumkaifa2@gmail.com
+       Github - kaifatab
+###### **Omar Sultan**
+       Email - omarsultan@gmail.com
+       Github - omarsultan054
+###### **Debpriya Dhar**
+       Email - debpriya65@gmail.com
+       Github - debpriya65
