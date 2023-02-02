@@ -21,7 +21,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 app.py
 ```
-<H1>Devolopers</h1>
+ ## Developers
 ###### **Ananna Dristy**
        Email - anannadristy03@gmail.com
        Github Profile - Dristy03
