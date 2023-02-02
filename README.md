@@ -26,10 +26,10 @@ python3 app.py
   
   <li><h3>Kaifa Tabassum</h3></li>
   <p>Undergrad at SUST CSE</p>
-  <p>Dataset Preparation</p>
+  <p>Data preparation</p>
   <li><h3>Ananna Datta Dristy</h3></li>
   <p>Undergrad at SUST CSE</p>
-  <p>Building Model</p>
+  <p>Training Model</p>
   <li><h3>Debapriya Dhar</h3></li>
   <p>Undergrad at SUST CSE</p>
   <p>Software developing</p>
@@ -38,6 +38,6 @@ python3 app.py
   <p>Software developing</p>
   <li><h3>Kawchar Husain</h3></li>
   <p>Undergrad at SUST CSE</p>
-  <p>Model Preprocessing</p>
+  <p> Model preprocessing </p>
 
 </ul>
