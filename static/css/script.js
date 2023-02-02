@@ -7,7 +7,7 @@ class Tabledata {
     }
     build() {
         if(this.title.length>100){
-            return `<tr><td style="padding:2px;font-family: 'Dancing Script', cursive;
+            return `<tr style="height: 100px;"><td style="padding:2px;font-family: 'Dancing Script', cursive;
                             font-family: 'Island Moments', cursive;
                             font-family: 'Kalam', cursive;
                             font-family: 'Marhey', cursive;
@@ -20,25 +20,16 @@ class Tabledata {
                             font-family: 'Island Moments', cursive;
                             font-family: 'Kalam', cursive;
                             font-family: 'Marhey', cursive;
-                            display: flex;
-                            flex-direction: column;
                             justify-content: center;
                             align-items: center;
                             ">
-                            <button style="
-                                background: var(--accent-clr);
-                                color: var(--light-clr);
-                                padding: 15px 30px;
-                                border: none;
-                                outline: none;
-                                border-radius: 25px;
-                                cursor: pointer;
-                                font-size: 1.0125rem;"
+                            <button class="download-btn shadow"
                                 type="button" data-toggle="modal" data-target="#myModal" 
                                 id=${this.url} > View </button>
-                </td>`
+                </td>
+                </tr>`
         }
-        return `<tr><td style="padding:2px;font-family: 'Dancing Script', cursive;
+        return `<tr style="height: 100px;"><td style="padding:2px;font-family: 'Dancing Script', cursive;
                             font-family: 'Island Moments', cursive;
                             font-family: 'Kalam', cursive;
                             font-family: 'Marhey', cursive;
@@ -51,28 +42,18 @@ class Tabledata {
                             font-family: 'Island Moments', cursive;
                             font-family: 'Kalam', cursive;
                             font-family: 'Marhey', cursive;
-                            display: flex;
-                            flex-direction: column;
                             justify-content: center;
                             align-items: center;
                             "
                             >
-                            <button style="
-                            background: var(--accent-clr);
-                            color: var(--light-clr);
-                            border: none;
-                            outline: none;
-                            border-radius: 25px;
-                            cursor: pointer;
-                            font-size: 1.0125rem;" 
-                            type="button" data-toggle="modal" data-target="#myModal"
+                            <button class="download-btn shadow"
+                            type="button" data-toggle="modal" data-target="#myModal" 
                             id=${this.url} > View </button>
                 <tr/>`;
       }
   }
 function submit() {
     const text=document.getElementById('textarea').value ;
-    document.getElementById('textarea').value ="";
     const json={
         "name":text,
     }
@@ -102,6 +83,7 @@ function submit() {
         const tail=`</table>`;
         body="";
         for(let i=0;i<newdata.length;i++){
+            
             x =new Tabledata(newdata[i].similarity_percentage,newdata[i].most_similar_article,`${i}`);
             body+=x.build();
 
